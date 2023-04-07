@@ -1,7 +1,7 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import "./App.css";
-import StockOverview from "./components/StockOverview";
-import StockDetails from "./components/StockDetails";
+import { StockOverview } from "./pages/StockOverview";
+import { StockDetails } from "./pages/StockDetails";
 
 export default function App() {
 	return (
